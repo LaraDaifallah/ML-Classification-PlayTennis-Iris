@@ -16,9 +16,9 @@ From the repository root, install the dependencies and run each experiment:
 
 ```bash
 python -m pip install -r requirements.txt
-python src/part_a.py
-python src/part_b.py
-python src/part_c.py
+python src/playtennis_id3_from_scratch.py
+python src/playtennis_decision_tree_vs_naive_bayes.py
+python src/iris_decision_tree_classification.py
 ```
 
 The PlayTennis data is embedded in the scripts. Iris is loaded using scikit-learn, so no separate dataset download is required. Figures and JSON results are saved in `outputs/` relative to the current working directory. Part A also attempts to open its saved figures in the system image viewer; on a headless machine, view the PNG files manually.
@@ -31,9 +31,9 @@ Part B deliberately uses `alpha=0` for unsmoothed Naive Bayes to match the cours
 
 ## Files
 
-- `src/part_a.py`: ID3 construction, entropy and information gain analysis, and tree plots.
-- `src/part_b.py`: classifier comparison, probability tables, and confusion matrices.
-- `src/part_c.py`: Iris classification, evaluation metrics, and feature importance plots.
+- `src/playtennis_id3_from_scratch.py`: ID3 construction, entropy and information gain analysis, and tree plots.
+- `src/playtennis_decision_tree_vs_naive_bayes.py`: classifier comparison, probability tables, and confusion matrices.
+- `src/iris_decision_tree_classification.py`: Iris classification, evaluation metrics, and feature importance plots.
 - [Project report](docs/project-report.pdf): methodology, figures, results, and discussion.
 
 ## Author

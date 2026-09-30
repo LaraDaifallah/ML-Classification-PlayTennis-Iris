@@ -1,6 +1,10 @@
 """
-Part C : Classification on the UCI Iris Dataset
-ENCS3340 || Project 1 || Lara Daifallah - 1230239
+Classify the three Iris species using a Gini-based Decision Tree with maximum
+depth 4 and a stratified 80/20 train/test split. Evaluate accuracy, precision,
+recall, F1-score, and feature importance, then save plots and JSON results
+in outputs/.
+
+ENCS3340 | Project Two | Lara Daifallah - 1230239
 """
 
 import os

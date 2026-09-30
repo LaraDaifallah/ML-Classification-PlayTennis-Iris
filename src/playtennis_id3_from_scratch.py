@@ -1,6 +1,9 @@
 """
-Part A : ID3 Decision Tree Classification on the PlayTennis Dataset
-ENCS3340 || Project 1 || Lara Daifallah - 1230239
+Build a multi-way ID3 decision tree from scratch on the 14-example PlayTennis dataset.
+Compute entropy and information gain, evaluate training predictions, and save
+the decision tree, information-gain chart, and JSON results in outputs/.
+
+ENCS3340 | Project Two | Lara Daifallah - 1230239
 """
 
 import math

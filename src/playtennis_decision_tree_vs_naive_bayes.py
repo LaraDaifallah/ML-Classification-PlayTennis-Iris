@@ -1,6 +1,10 @@
 """
-Part B : Decision Tree vs Naive Bayes on the PlayTennis Dataset
-ENCS3340 || Project 1 || Lara Daifallah - 1230239
+Compare an entropy-based Decision Tree with unsmoothed Categorical Naive Bayes
+on PlayTennis using Leave-One-Out Cross-Validation. Print probability tables
+and evaluation metrics, then save comparison plots, confusion matrices,
+and JSON results in outputs/.
+
+ENCS3340 | Project Two | Lara Daifallah - 1230239
 """
 
 import os
